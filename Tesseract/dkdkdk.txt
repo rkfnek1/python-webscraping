@@ -1,0 +1,19 @@
+from PIL import Image     #pip install pillow
+import pytesseract
+# from pytesseract import * #pip install pytesseract
+import configparser
+import os
+import cv2
+import sys
+
+path = r'C:\Users\Blackstorm_plecios\Desktop\Tesseract\dddddd.jpg'
+image = cv2.imread(path)
+rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+sys.stdout = open('ocr.txt', 'w', encoding="utf-8-sig", newline="") # 메모장 오픈
+print(pytesseract.image_to_string(rgb_image, lang='kor'))
+sys.stdout.close() # 메모장으로 저장
+
+rgb_image = Image.frombytes('RGB', image.shape[:2], image, 'raw', 'BGR', 0 ,0)
+sys.stdout = open('ocr2.txt', 'w', encoding="utf-8-sig", newline="") # 메모장 오픈
+print(pytesseract.image_to_string(rgb_image))
+sys.stdout.close() # 메모장으로 저장

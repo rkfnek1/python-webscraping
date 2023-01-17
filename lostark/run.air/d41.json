@@ -1,0 +1,9 @@
+{
+    "project" : "D41",
+    "game_title" : "超激斗梦境",
+    "project_root" : "N:/D41/AirTest/static",
+    "logdir" : "N:/D41/AirTest/static/Log",
+    "report_folder" : "N:/D41/AirTest/static/Report",
+    "static_root_path" : "/static/air",
+    "web_server" : "http://10.240.169.98:8080/"
+}
