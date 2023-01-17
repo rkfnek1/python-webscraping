@@ -1,0 +1,15 @@
+autoDocstring - Python Docstring Generator
+Django
+HTML Snippets
+Jinja
+Jupyter
+Jupyter Keymap
+Jupyter Notebook Renderers
+open in browser
+open-in-browser
+Pylance
+Python Environment Manager
+Python Extension Pack
+Python for VSCode
+Python Indent
+Visual Studio IntelliCode
