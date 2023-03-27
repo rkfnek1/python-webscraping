@@ -61,7 +61,7 @@ class MyApp(QWidget):
         label = QLabel("비밀번호 입력", self)
         label.move(300, 60)
         self.qle_3 = QLineEdit(self)
-        self.qle_3.setEchoMode(QLineEdit.Password) # 비밀번호 암호화 (*표시)
+        self.qle_3.setEchoMode(QLineEdit.Password) # 비밀번호 암호화 (**표시)
         self.qle_3.move(380, 55)
         self.qle_3.setText("")
         
